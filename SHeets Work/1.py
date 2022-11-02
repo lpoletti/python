@@ -1,7 +1,7 @@
 
 import openpyxl
 
-estoque_file = openpyxl.load_workbook("C:\\Users\\t0003120\Documents\\python\\python\\SHeets Work\\estoque.xlsx")
+estoque_file = openpyxl.load_workbook("estoque.xlsx")
 lista_produtos = estoque_file['Sheet1']
 
 produtos_por_fornecedor = {}

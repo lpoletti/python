@@ -1,12 +1,13 @@
 
 import pandas as pd
+import seaborn as sns
 
-estoque_file = pd.read_excel('C:\\Users\\t0003120\\Documents\\python\\python\\SHeets Work\\estoque.xlsx')
+estoque_file = pd.read_excel('estoque.xlsx')
 
 print()
 
 teste = enumerate(list(set(estoque_file['Supplier'].tolist())))
-
+print(teste)
 
 produtos_por_fornecedor = {}
 qtd_por_fornecedor = 0
